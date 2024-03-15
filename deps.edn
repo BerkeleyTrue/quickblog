@@ -4,7 +4,9 @@
         org.clojure/clojure {:mvn/version "1.11.1"}
         org.clojure/data.xml {:mvn/version "0.2.0-alpha6"}
         selmer/selmer {:mvn/version "1.12.53"}
-        markdown-clj/markdown-clj {:mvn/version "1.11.7"}
+        markdown-clj/markdown-clj {:git/url "https://github.com/berkeleytrue/markdown-clj"
+                                   :git/branch "feat-pre-code-style"
+                                   :git/sha "dff75e9cd7bd620465bfeec1e840a688185f6afd"}
         org.babashka/cli {:mvn/version "0.6.50"}
         org.babashka/http-server {:mvn/version "0.1.11"}
         babashka/babashka.pods {:git/url "https://github.com/babashka/pods"
